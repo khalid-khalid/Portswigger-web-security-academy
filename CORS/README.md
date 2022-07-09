@@ -9,6 +9,7 @@ Extracting the administrator API-KEY using CORS vulnerability with trusted insec
 
 2. **Technique Fetch Method :**
      - **Fetch Method:** is used to get the resources like XMLHttpRequest, and for details check the references.
+     - **Burpsuite**: Burpsuite is used to check the requests and responses because it's good to check what's going on in the request/response. To run the code on windows or linux, Python version 3 should be installed in the system and also check that the import libraries are also properly installed e.g. request. Burp suite must be started to run the code.
      <br>
      
      > Windows: 
